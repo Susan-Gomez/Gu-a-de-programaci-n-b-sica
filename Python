@@ -1,0 +1,89 @@
+//Ejercicio #3
+print("Hola Mundo")
+
+//Ejercicio #4
+int saludo ="hello world"
+print (saludo)
+
+//Ejercicio #5
+myname=input("¿cuál es tu nombre")
+print("Hola",myname)
+
+//Ejercicio #6
+(3+2/2*5)^2
+
+//Ejercicio #7
+horas = input ("¿cuántas horas trabajas?")
+coste = input ("¿cuánto cobras por hora?")
+paga = int(horas) * int(coste)
+print ("tu paga es", paga)
+
+//Ejercicio #8
+n = input("escribe un número entero")
+m = input("escrribe otro número entero")
+c = int(n) /int(m)
+print("el resultado del cociente es",c)
+r = int(n)-int(m)
+print("el resultado de la resta es", r)
+
+//Ejercicio #9
+peso = input ("¿cuál es tu peso?")
+estatura = input ("¿cuál es tu estatura?")  
+imc = int(peso) / int(estatura)
+print("tu masa es",imc)
+
+//Ejercicio #10
+pan_normal=3.49
+pan_fresco= input("¿cuantos panes frescos vendio?")
+pft= int(pan_fresco)*int(pan_normal)
+pan2= input("¿cuantos panes viejos vendio?")
+pnv= int(pan2)* int(pan_normal)
+pnvt= pnv-0.06
+print ("el pan habitalmente tiene un costo de", pan_normal)
+print("el valor del pan que no es de hoy es de",pnvt)
+print("el valor del pan de hoy es de",pft)
+costo_total= int(pft)+ int(pnvt)
+print("el costo final de todo fue",costo_total)
+
+//Ejercicio #11
+edad = int(input("ingresa tu edad =>"))
+if edad >= 18 and edad <= 1000:
+  print ("eres mayor de edad")
+else: 
+  print ("eres menor de edad")
+
+//Ejercicio #12
+contraseña = int(input("ingresa tu contraseña =>"))
+if contraseña == 1234:
+  print ("contraseña correcta")
+elif contraseña == 2345:
+  print ("contraseña correcta")
+else: 
+  print ("contraseña incorrecta") 
+
+//Ejercicio #13
+número1= int(input( "ingresa un número entero =>"))
+número2= int(input( "ingresa otro número entero =>"))
+division = número1 / número2
+print (division)
+if division == 0:
+  print ("error")
+else:
+  print ("el resultado es " + str(division))
+
+//Ejercicio #14
+número = int(input("ingresa un número entero =>"))
+if número % 2 == 0:
+  print ("el número es par")
+else:
+  print ("el número es impar")
+
+//Ejercico #15
+palabra = input ("escribe algo")
+for x in range (11):
+    print (palabra)
+
+//Ejercicio #16
+número = int(input("Ingrese un número entero positivo: "))
+impares = [str(i) for i in range(1, numero + 1, 2)]
+print(", ".join(impares))
